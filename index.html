@@ -8,65 +8,35 @@
     <link rel="stylesheet" href="">
     <!-- Put css here if you don't have an external style sheet-->
     <style>
-    </style>
+    P {
+        	color : rgba(190, 10, 35, .1
+            );     
+        }
+        
+        P:hover {
+        	background-color : yellow ;
+        }
+        
+        .gre {
+        	color : orange ;
+            
+            }
+    
+	body {
+    	background-color : orange ;
+        
+        }
+	</style>
     <!-- For Javascript -->
     <script src=""></script>
   </head>
   <body>
     <div class="">
-      <h1>President's Day!</h1>
-      <p>Mrs. Corsi: "Who was the 31st U.S. President?"</p>
-      <p>Franklin: "Is it Franklin Delano Roosevelt?"</p>
-      <p>Mrs. Corsi: "HaHaHa. No!"
-      <p>Eric: "Herbert Clark Hoover!"<p>
-      <p>Mrs. Corsi: "How did you know?"
-    </div>
-  </body>
-</html> 
-p {
-  color : cornflowerblue;
-  background-color : yellow;
-}
-th {
-  height : 100px;
-  width : 100px;
-  border : 4px;
-  border-style : solid;
-}
-    
-td {
-  height : 100px;
-  width : 100px;
-  border : 4px;
-  border-style : solid;
-}
-
-td:hover {
-  animation-name : hov;
-  animation-duration : 0.2s;
-  animation-fill-mode : forwards;
-  border-style : dashed;
-}
-
-th:hover {
-  animation-name : hov;
-  animation-duration : 0.2s;
-  animation-fill-mode : forwards;
-  border-style : dashed;
-}
-
-tr:hover {
-  animation-name : hov2;
-  animation-duration : 0.2s;
-  animation-fill-mode : forwards;
-}
-
-@keyframes hov {
-  from{background-color : rgba(255.0, 255.0, 255.0, 0.0);}
-  to{background-color : rgba(51, 122, 255.0, 1.0); !important}
-}
-	
-@keyframes hov2 {
-  from{background-color : rgba(1.0, 1.0, 1.0, 0.0);}
-  to{background-color : rgba(210, 170, 20, 1.0); !important}
-}
+      <h1>Presidents Day</h1>
+      <p id="dogma">Mrs. Corsi: Who was the 31st US President</p>
+      <p class="gre">Franklin: Is it Franklin Delano Roosevelt</p>
+      <p>Mrs. Corsi: HaHaHa No</p>
+      <p>Eric: Herbert Clark Hoover<p>
+      <p>Mrs. Corsi: How did you know</p>
+    <div>
+ 
